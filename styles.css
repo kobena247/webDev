@@ -1,0 +1,451 @@
+/*css rules.  @author: michaelayimboateng*/
+
+/*Links*/
+a{
+    color:#1b2f49;
+}
+a:hover{
+    color:rgb(255, 255, 255)
+}
+a:active{
+  color:#15314c
+}
+a:visited{
+  color:#365d7d
+}
+
+/*list, headers, and p tag*/
+ul{
+    font-family: 'Poppins Regular', sans-serif;
+}
+h1{
+    font-family:monospace;
+    font-size: 48px;
+    
+}
+h2{
+    font-family:'Poppins Medium', sans-serif;
+    text-align:center;
+}
+h3{
+    font-family:'Poppins Medium', sans-serif;
+}
+p{
+    font-family:'Poppins Regular', sans-serif;
+    font-weight:400;
+}
+
+
+#emph{
+    color:rgb(5, 22, 16)
+}
+.image-1{
+    border-radius: 10px;
+    width:150px;
+    margin-top: 10px;
+}
+.image-2{
+    border-radius: 10px;
+    width:150px;
+    margin-top: 10px;
+}
+.image-3{
+    width:150px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#title{
+    background-color: #0e1a2b;
+    padding:10px;
+    color:white;
+    border-radius:20px;
+    text-align: center;
+}
+
+    
+
+html {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    scroll-padding-top:50px;
+}
+
+
+#header-img{
+  margin-left:10px;
+  margin-right:10px;
+  max-width:100px;
+}   
+.header-container{
+  padding-top:10px;
+  margin-bottom:50px;
+  text-align:justify;
+  display: flex;
+  margin-top: 20px;
+  flex-direction:row;
+}
+.header-item:nth-of-type(1){
+  margin-top:40px;
+  margin-bottom:px;
+  padding:30px;
+
+}
+.header-item:nth-of-type(2){
+  padding: 0;
+  margin-bottom:0;
+}
+.schedule-container{
+  text-align:center;
+  display:flex;
+  flex-direction: row;
+}
+.schedule-item:nth-of-type(1){
+  margin-top:10px;
+  width: 60%;
+  background-color:#bedeff;
+  border-radius: 25px;
+  margin-right: 10px;
+  font-size:smaller;
+}
+.schedule-item:nth-of-type(2){
+  margin-top:10px;
+  width: 60%;
+  background-color:#bedeff;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size:smaller;
+}
+.schedule-item:nth-of-type(3){
+  margin-top:10px;
+  width: 60%;
+  background-color:#bedeff;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size:smaller;
+}
+#schedule-header{
+  margin-top:30px;
+}
+
+.about-container{
+  display:flex;
+  flex-direction: row;
+}
+#about-item:nth-of-type(1){
+  margin-left: 50px;
+  width: 50%;
+  object-fit: contain;
+}
+#about-item:nth-of-type(2){
+  width: 50%;
+}
+body {
+    /* Add a background color or image */
+    background-color: var(--bg-color); /* see bottom of file for color variables */
+
+    /* Customize the default size, color, and font for text*/
+    font-size: 16px;
+    color: var(--text-color);
+    padding: 0;
+    margin: 0;
+    margin-bottom:0;
+    position: absolute;
+
+    /* Put space around the edges of the webpage */
+}
+.html-body{
+  margin:50px;
+}
+
+
+.header-button {
+    /* Example Style, replace with your own! */
+    background-color: #f2661b;    /* button color */
+    color: #ffffff;               /* text color */
+    border: none;               /* hides the default border */
+    padding: 5px 12px;          /* space between button's text and edge */
+    border-radius: 5px;         /* curved edges instead of square */
+    cursor: pointer;  
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;  
+    font-size: larger;
+}
+
+button:hover {
+    color:#1b3149
+}
+
+.footer { 
+    position: fixed;
+    left:0;
+    width:100%;
+    bottom: 0;
+    color: white;
+    background-color:#0e1a2b;
+}
+#article-link{
+  color:#62a3e8;
+  text-decoration: none;
+  padding:10px;
+}
+#footer-text{
+  font-family:'Courier New', Courier, monospace;
+  margin:10px;
+}
+#article-link {
+  color:#f2661b;
+}
+#article-link:hover{
+  color:rgb(160, 220, 255);
+}
+
+.navbar ul{
+  margin:0;
+  z-index: 100;
+  list-style-type: none;
+  overflow:hidden;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  background-color:#f2661b;
+}
+.navbar ul li{
+  float: left;
+  margin:10px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  display:block;
+  color:white;
+  font-weight:bold;
+}
+.navbar ul li a:hover{
+  color:#1b3149;
+}
+#navbar-text{
+  font-family:'Courier New', Courier, monospace;
+}
+
+/* Default dark mode style */
+.dark-mode{
+  color:white;
+  background-color:#0e1a2b;
+}
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3 {
+  color:white;
+}
+/* Example: Different dark mode style for h1 */
+
+/* Example: Different dark mode style for visited links */
+#theme-button{
+  border-radius:6px;
+  border:none;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+  color:#ffffff;
+  padding:4px;
+  background:linear-gradient(to right,#0d62be, #0eb5f7);
+}
+#theme-button:hover{
+  color:#ff9257;
+}
+
+#motion-button{
+  border-radius: 6px;
+  border:none;
+  font-family:'Courier New', Courier, monospace;
+  font-weight:bold;
+  color:white;
+  padding:4px;
+  background: linear-gradient(to right,#0d62be, #0eb5f7);
+}
+#motion-button:hover{
+  color:#e65100;
+}
+.dark-mode a{
+    color:#b3d8ff;
+}
+.dark-mode .navbar ul{
+  background-color:#003369
+}
+.dark-mode .schedule-item:nth-of-type(1){
+  background-color:#93c7ff;
+  color:#1b3149;
+}
+.dark-mode .schedule-item:nth-of-type(2) {
+  background-color:#93c7ff;
+  color:#1b3149;
+}
+.dark-mode .schedule-item:nth-of-type(3){
+  background-color:#93c7ff;
+  color:#1b3149;
+}
+
+.dark-mode #navbar-text a:hover{
+  color:#f2661b;
+}
+.dark-mode #schedule-headings{
+  color:#1b3149;
+}
+
+.dark-mode .footer{
+  color:#003369;
+  background-color: #83beed;
+}
+
+.dark-mode #article-link{
+  color:#124268;
+}
+.dark-mode #article-link:hover{
+  color:#ffffff;
+}
+
+
+/*** RSVP [PLACEHOLDER] [ADDED IN UNIT 6] ***/
+.rsvp-container {
+  display:flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom:50px;
+}
+.rsvp-para{
+  width:55%;
+  padding-right: 10px;
+}
+
+.rsvp-participants{
+  width:45%;
+  padding-right:10px;
+}
+.form-container{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins Regular',sans-serif;
+  font-weight: 400px;
+  font-size:15px;
+}
+
+ #rsvp-button {
+  font-family:'Courier New Bold', Courier, monospace;
+  border: none;
+  border-radius: 5px;
+  background-color:#f2661b;
+  padding: 5px 12px;
+  margin-left: 10px;
+}
+#rsvp-button:hover{
+  color: white;
+}
+
+
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color:var(--error-color-border);
+  background-color: var(--error-color);
+
+  /* Set border-color and background */
+}
+/*** Animations [PLACEHOLDER] [ADDED IN UNIT 8] ***/
+/*** Success Modal [PLACEHOLDER] [ADDED IN UNIT 9] ***/
+.modal {
+  display: none;   /* modal should be hidden by default*/
+  position: fixed; /* modal cannot move around the screen */
+  z-index: 2;      /* modal appears above other elements */ 
+  left: 0;
+  right:0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black */
+
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-container {
+    /* Change modal size and spacing here */
+    padding: 20px;
+    width: 50%;
+
+    background-color: rgb(200, 216, 236);
+    border-radius:15px;
+    color: black;
+    text-align: center;
+    font-size: 1rem;
+    font-family: monospace;
+
+    /* Optional: Use flexbox to customize .modal-item layout */
+    display: flex;
+    flex-direction: row;
+
+}
+#modal-item:nth-of-type(1){
+  padding-top:50px;
+  width: 60%;
+  padding-bottom: 30px;
+}
+#modal-item:nth-of-type(2){
+  width: 40%;
+}
+#modal-img{
+  width: 150px;
+  border-radius: 25px;
+}
+
+#modal-button{
+  border-radius: 5px;
+  background-color: #003369;
+  border: none;
+  color: white;
+  padding: 10px;
+  margin: auto;
+}
+#modal-button:hover{
+  color: #f2661b;
+}
+
+
+
+
+
+/*** Dark Mode [PLACEHOLDER] [ADDED IN UNIT 5] ***/
+
+/*** Custom Colors (OPTIONAL) ***
+  
+  Purpose:
+  - Use CSS variables to define custom colors for your website
+  - To get you started, we've provided the color scheme used in our example site.
+  - To reference a color variable in your css, use var(--variable-name) in place of a color value
+
+  When To Modify:
+  - [ ] Any time (OPTIONAL)
+***/
+
+:root {
+    /* Light Mode */
+    --bg-color: #62b7e8;
+    --text-color: #1a1a1a;
+
+    /* Dark Mode */
+    --bg-color-dark-mode: #024249;
+    --text-color-dark-mode: #fff;
+
+    /* Accent Colors */
+    --accent-color-light: #d2cff5;
+    --accent-color-medium: #684fb5;
+    --accent-color-dark: #482f95;
+    --accent-color-darkest: #231942;
+    --accent-color-green: #28eb76;
+
+    /* Error Colors */
+    --error-color: #f8bbd0;
+    --error-color-border: #e63946;
+}

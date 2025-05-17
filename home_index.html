@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--external links-->
+        <title>The Design Convention</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="img/favicon copy.ico">;
+    </head>
+    
+    <body>
+        <div class="html-body">
+            <div class="navbar">
+                <ul id="navbar-text">
+                    <li><a href="#top">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#schedule">Schedule</a> </li>
+                    <li><a href="#links">Links</a></li>
+                    <li><button id="theme-button">Toggle Dark Mode</button> </li>
+                    <li><button id="motion-button">Reduce Motion</button></li>
+                </ul>
+            </div>
+        
+
+        <div class="header-container" id="home">
+            <div class="header-item">
+                <img id="header-img" src="img/new.png" alt="convention logo">
+            </div>
+            <div class="header-item">
+                <h1 id="title">Design-Con</h1>
+                <h3>BrainStorm.Design.Execute</h3>
+                <button class="header-button" type="button">Sign Up</button>
+                <button class="header-button" type="button">Project Guidlines</button>
+            </div>
+        </div>
+    
+            <h2 id="about">About the Event</h2>
+            <div class="about-container">
+                <iframe  id="about-item" width="560" height="315" src="https://www.youtube.com/embed/JfA77hCBHls?si=iAsuJwKqRS920uC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p id="about-item">Get ready to brainstorm bold ideas, refine your creativity, and build some seriously cool stuff!
+                    This is the maiden voyage of Design-Con — a design-focused convention born from the belief that human-centered design has the power to shape a better world.
+                    Rooted in empathy and innovation, Design-Con brings together a vibrant community of creators, developers, thinkers, and tinkerers. Whether you're a seasoned designer, a curious student, or someone who simply loves solving problems, this is your playground.
+                    From workshops and live challenges to inspiring keynotes and collaborative design sprints, this event is crafted to ignite creativity and foster meaningful connections.
+                    Join us as we sail the world of design — where ideas are charted, boundaries are pushed, and imagination is the compass.
+            </p>
+            </div>
+            <div class="highlights">
+                <h3>Highlights</h3>
+                <ul>
+                    <li> <b>Workshops:</b>Get to work and learn from top design companies</i></li>
+                    <li> <b>Speakers:</b> Meet seasoned professionals</li>
+                    <li> <b>Challenges/Hackathons:</b>Who said we wouldn't go fishing? Dive into the world of problem solving!
+                    </li>
+                </ul>
+            </div>
+
+        
+            <h2 id="schedule">Event Schedule</h2>
+            <div class="schedule-container">
+                <div class="schedule-item">
+                    <img class= "image-1" alt="Warm friendly Techies" src="/img/one.jpeg"/>
+                    <h3 id="schedule-headings" >Day One: All Aboard!</h3>
+                    <p>Introduction and Ice-breakers: <strong id="emph">getting sea ready!</strong></p>
+                </div>
+                <div class="schedule-item">
+                    <img class="image-2" alt="Brainstorming ideas" src="img/two.jpeg"/>
+                    <h3 id="schedule-headings">Day 2: Hoist the sails! </h3>
+                    <p>We start lifting anchor and start diving into the design after
+                        introduction of key speakers.
+                    </p>
+                </div>
+                <div class="schedule-item">
+                    <img class="image-3" alt="Group building and executing ideas" src="img/three.jpeg"/>
+                    <h3 id="schedule-headings">Day 3: We set Sail!</h3>
+                    <p>We hit the open waters of design and start the deep dive into execution of ideas!
+                    </p>
+                </div>
+            </div>
+            <!-- rsvp [PLACEHOLDER] [ADDED IN UNIT 6] -->
+            <div id="rsvp">
+                <h2>RSVP</h2>
+                <div class="rsvp-container">
+                    <div class="rsvp-para">
+                        <p>
+                            Ready to sail the open waters of design?
+                            Join a crew of creative minds as we chart new 
+                            territories, share bold ideas, and build something 
+                            unforgettable. Sign up now to reserve your spot on this 
+                            one-of-a-kind design voyage!
+                        </p>
+                    </div>
+                    <div id="rsvp-participants">
+                        <p>💫 Texas Mike has RSVP'd.</p>
+                        <p>💫 Dino Paws from Oregon has RSVP'd.</p>
+                        <p>💫 Quentin Blakes from NYC has RSVP'd.</p>
+                    </div>
+                    <p id="rsvp-count">⭐️ 3 people have RSVP'd to this event!</p>
+                </div>
+            
+                <!--- Sign RSVP Form --->
+                <div class="form-container">
+                    <form id="rsvp-form" title="rsvp-form">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name">
+                        <label for="homeState">Home State: </label>
+                        <input type="text" id="homeState">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email">
+                    </form>
+                    <!-- Submit button -->
+                    <button id="rsvp-button">Submit RSVP</button>
+                </div>  
+                    
+            </div>
+            
+            <div id="success-modal" class="modal">
+                <div class="modal-container">
+                    <div id="modal-item">
+                        <p id="modal-text"> 
+                        </p>
+                        <button id="modal-button">Close</button>
+                    </div>
+                    <div id="modal-item">
+                       <img id="modal-img" src="img/ship.png" alt="a sailing ship">
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+            <div id="links">
+                <h2>Links</h2>
+                <p>Want to know more about design conferences happening? Jump right into the links below!</p>
+
+                <a class="block" href="https://www.thedesignconference.com.au/australia-2025">
+                    <h3>The Design Con Australia</h3>
+                    <article>
+                        <p>Connect with designers from the West Pacific!</p>
+                    </article>
+                </a>
+                <a class="block" href="https://uxdx.com/usa/2025/">
+                        <h3>UXDX USA</h3>
+                        <article>
+                            <p>Meet North America's finest designers!</p>
+                        </article>
+                </a>
+                <a class="block" href="https://www.internationaldesignconference.com/">
+                    <h3>International Design Conference</h3>
+                    <article>
+                        <p>This is your chance to meet world class designers!</p>
+                    </article>
+                        
+                </a>
+            </div>
+        
+                
+        <footer class="footer">
+                <p id="footer-text">Learn more/<a id="article-link" href="https://www.youtube.com/channel/UC-b3c7kxa5vU-bnmaROgvog">UI/UX vs HCI</a></p>
+        </footer>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
